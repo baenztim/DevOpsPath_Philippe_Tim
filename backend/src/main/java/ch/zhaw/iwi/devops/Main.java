@@ -129,6 +129,7 @@ public class Main {
 		logger.info("devops prototype running on localhost:" + getHerokuAssignedPort());
 	}
 
+
 	private static void initFrontend() {
 		try {
 			File frontendDirectory = new File("../frontend/dist");
