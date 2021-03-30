@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TicTacToe {
     public static char[][] spielfeld = new char[3][3];
     public static int Zeile;
-    public static int Spalte;
+    public static final int Spalte;
     public static char temp;
     public static int position;
 
