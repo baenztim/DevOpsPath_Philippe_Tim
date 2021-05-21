@@ -1938,7 +1938,33 @@ export class GuiModel {
                             "url": "/user/:userKey/permissionRole"
                         },
                     ]
-                }
+                },
+
+                {
+                "id": "modulePage",
+                        "elementList": [
+                        {
+                        "type": "backbutton",
+                        },
+                        {
+                        "type": "newButton",
+                        "name": { default: "Neues Modul" },
+                        "icon": "fas fa-atlas",
+                        "color": "blue",
+                        "width": 6,
+                        "form" : {
+                        "form" : "ModuleForm"
+                        }
+                        },
+                        ]
+                    }
+
+
+
+
+
+
+
             ]
         }
     };
