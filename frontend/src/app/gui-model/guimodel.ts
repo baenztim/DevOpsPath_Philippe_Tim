@@ -1485,6 +1485,9 @@ export class GuiModel {
                     ]
                 }
             ],
+
+
+
             "pageList": [
                 {
                     "id": "mainMenu",
@@ -1776,6 +1779,18 @@ export class GuiModel {
                             },
                             "url": "/interactionStep/:interactionStepKey/interactionElement"
                         },
+
+                        {
+                            "type": "button",
+                            "name": { default: "Module" },
+                            "icon": "fal fa-air-freshener",
+                            "color": "blue",
+                            "page": "modulePage",
+                            "width": 2,
+                            },
+
+
+
                     ]
                 },
                 {
@@ -1957,7 +1972,7 @@ export class GuiModel {
                         }
                         },
                         ]
-                    }
+                    },
 
 
 
