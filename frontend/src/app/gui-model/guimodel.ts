@@ -1495,7 +1495,7 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen bei DevOps Tim & Philippe</h4>",
                             "newRow": true
                         },
                         {
@@ -1507,8 +1507,36 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+
+                        {
+                            "type": "button",
+                            "name": { default: "Umfrage" },
+                            "icon": "fas fa-anchor",
+                            "color": "blue",
+                            "page": "Umfragepage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+
                     ]
                 },
+                {
+                    "id": "Umfragepage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "Umfrage starten",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "width": 2,
+                        },
+                       
+                    ]
+                },
+
                 {
                     "id": "studyProgramPage",
                     "elementList": [
